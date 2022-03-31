@@ -44,7 +44,7 @@ def __calculator__() :
     multiply = int(first) * int(second)
     divide = int(first) / int(second)
 
-    #Conditional structure checking if all requirements are met and if there are no s
+    #Conditional structure checking if all requirements are met and if there are no errors
     if(str(e_type) == "*") :
         if(multiply > 32767) :
             print("Integers above 32767 are not calculated")
