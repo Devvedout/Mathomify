@@ -15,21 +15,21 @@ def __calculator__() :
     second = input("Second: ")
 
     #Checks if there are no 0s inputted
-    if(int(first) == 0) :
+    if(float(first) == 0) :
         print("SYNTAX ERROR")
         while 1:
             print("Restarting...") 
             os.system("python Calculator.py")
             exit()
 
-    elif(int(second) == 0) :
+    elif(float(second) == 0) :
         print("SYNTAX ERROR")
         while 1:
             print("Restarting...") 
             os.system("python Calculator.py")
             exit()
 
-    if(int(second) and int(first) == 0) :
+    if(float(second) and float(first) == 0) :
         print("SYNTAX ERROR")
         while 1:
             print("Restarting...") 
@@ -39,10 +39,10 @@ def __calculator__() :
     e_type = input("Type: ")
 
     #Adds the numbers up or subtracts them
-    add = int(first) + int(second)
-    subtract = int(first) - int(second)
-    multiply = int(first) * int(second)
-    divide = int(first) / int(second)
+    add = float(first) + float(second)
+    subtract = float(first) - float(second)
+    multiply = float(first) * float(second)
+    divide = float(first) / float(second)
 
     #Conditional structure checking if all requirements are met and if there are no s
     if(str(e_type) == "*") :
