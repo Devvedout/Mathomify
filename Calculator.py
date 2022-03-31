@@ -12,22 +12,9 @@ from tkinter import *
 def __calculator__() :
     #First input
     first = input("First: ")
-    #Checks if there are no floating points
-    if(float(first)) :
-        print("Values with decimals are not calculated")
-        while 1:
-            print("Restarting...") 
-            os.system("python Calculator.py")
-            exit()
     #Second input
     second = input("Second: ")
-    if(float(first)) :
-        print("Values with decimals are not calculated")
-        while 1:
-            print("Restarting...") 
-            os.system("python Calculator.py")
-            exit()
-
+    
     #Checks if there are no 0s inputted
     if(int(first) == 0) :
         print("SYNTAX ERROR")
