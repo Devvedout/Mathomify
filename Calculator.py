@@ -36,9 +36,9 @@ def __calculator__() :
             os.system('python Calculator.py')
             exit()
 
+    #Adds the numbers up or subtracts them
     e_type = input("Type: ")
 
-    #Adds the numbers up or subtracts them
     add = float(first) + float(second)
     subtract = float(first) - float(second)
     multiply = float(first) * float(second)
